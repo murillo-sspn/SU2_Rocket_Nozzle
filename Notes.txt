@@ -1,0 +1,6 @@
+File .geo generated with Josh's code has an incompatibility with current version of GMSH:
+	- He defined all points and said that the last point is equal to the first
+	- Currently, the last point cannot be equal to the first:
+		" Start point 24 and end point 1 of GEO line 24 are closer than the geometrical tolerance, at position (0,1,0)"
+	
+	
